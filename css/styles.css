@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #333;
+}
+
+header {
+    background: #f59a00;
+    color: #fff;
+    text-align: center;
+    padding-top: 64px;
+}
+
+header h1,
+header p {
+    margin: 0;
+}
+
+header img {
+    width: 280px;
+    vertical-align: bottom;
+}
+
+.games {
+    background: #f2f2f3;
+}
+
+.games > h1 {
+    text-align: center;
+    padding: 64px 0;
+    margin: 0;
+    font-weight: normal;
+}
+
+.games ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.games img {
+    width: 160px;
+    border-radius: 50%;
+}
+
+.games img:hover {
+    opacity: 0.8;
+}
+
+.games h2 {
+    font-size: 20px;
+}
+
+.games li {
+    padding-bottom: 64px;
+}
+
+.games a {
+    color: #333;
+}
+
+.call-to-action {
+    background: #f59a00;
+    color: #fff;
+    text-align: center;
+    padding: 64px 0;
+}
+
+.call-to-action h1 {
+    font-weight: normal;
+}
+
+.call-to-action .btn {
+    margin: 0 auto;
+}
+
+footer {
+    padding: 64px 0;
+    background: #323135;
+    color: #98969c;
+    text-align: center;
+}
+
+@media (min-width: 900px) {
+    header .container {
+        display: flex;
+        width: 800px;
+        margin: 0 auto;
+
+    }
+
+    header .info {
+        width: 60%;
+        align-self: center;
+    }
+
+    header .pic {
+        width: 40%;
+    }
+
+    .games ul {
+        width: 800px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .games li {
+        width: 250px;
+    }
+}
