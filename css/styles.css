@@ -56,6 +56,8 @@ header img {
 
 .games li {
     padding-bottom: 64px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .games a {
