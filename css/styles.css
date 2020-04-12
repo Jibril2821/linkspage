@@ -55,9 +55,12 @@ header img {
 }
 
 .games li {
-    padding-bottom: 64px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 64px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid #98969c;
+    border-radius: 20px;
 }
 
 .games a {
