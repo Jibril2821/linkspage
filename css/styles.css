@@ -51,7 +51,7 @@ header img {
 }
 
 .games h2 {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .games li {
@@ -62,6 +62,9 @@ header img {
     border: solid #98969c;
     border-radius: 20px;
 }
+
+.games h1 {
+    font-size: 20px;
 
 .games a {
     color: #333;
